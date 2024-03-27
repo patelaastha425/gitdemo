@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+class Product{
+	public:
+		string Name;
+		int productid;
+		int price;
+};
+
+
+ void setProductdDetais(){
+ 	cout << "Enter the Product Name:" << endl;
+ 	cin >> Name;
+ 	cout << "Enter the Product ID:" << endl;
+ 	cin >> productid;
+ 	cout << "Enter the Product Price:" <<endl;
+ 	cin >> price;
+ }
+ 
+   void  dispalyProdoctDetais(){
+   	cout << "Enter the Product Name:Soap"<<Name<<endl;
+   	cout << "Enter the Product ID: 12345"<<productid<<endl;
+   	cout << "Enter the Product Price:35"<<price<<endl;
+   }
+   
+   
+ int main() {
+ 	Product pro();
+ 	pro.displayProductDetais();
+ 	return 0;
+ } 
